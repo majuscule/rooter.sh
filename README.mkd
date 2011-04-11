@@ -3,9 +3,10 @@ cd to the project root (identified by the presence of a SCM directory, like
 
 Install
 ---------
-Put something like this in your .zshrc:
+Put something like this in your .zshrc/.bashrc:
 
-    . /path/to/rooter.zsh
+    . /path/to/rooter.zsh (for the zsh version)
+    . /path/to/rooter.sh (for the bash version)
 
 This installs the `cdr` command for use.
 

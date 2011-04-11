@@ -52,10 +52,12 @@ cdr(){
     # use the first argument or the current working directory
     [[ -n "$1" ]] && dir="$1" || dir="$(pwd)"
 
+    [[ "$dir" = ".." ]] && dir="$(dirname `pwd`)"
+    [[ "$dir" = "."  ]] && dir="$(pwd)"
+
     if [[ -d $dir ]]; then
         local root_dir=$(_get_root_dir $dir)
     fi
 
     cd $root_dir
 }
-

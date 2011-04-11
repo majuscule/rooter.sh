@@ -21,5 +21,4 @@ Use
 Todo
 ----
 1. Make it compatible with Bash.
-2. Saying `cdr .` , or `cdr ..` hangs.
-3. Make it more efficient? Currently, it iterates over each ancestral directory looking for a known SCM directory. Is there a better way?
+2. Make it more efficient? Currently, it iterates over each ancestral directory looking for a known SCM directory. Is there a better way?

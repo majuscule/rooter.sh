@@ -1,0 +1,15 @@
+cd to the project root (identified by the presence of a SCM directory, like
+.git, or .bzr)
+
+INSTALL:
+  * put something like this in your .zshrc:
+    . /path/to/rooter.zsh
+
+  This installs the 'cdr' command for use.
+
+USE:
+  $ pwd
+  /home/yeban/drizzle/drizzle/libdrizzle-2.0/libdrizzle
+  $ cdr
+  $ pwd
+  /home/yeban/src/drizzle/drizzle
